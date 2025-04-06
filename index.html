@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <title>Local Time</title>
+    <style>
+      body {
+        background-color: #212121;
+        color: #fff;
+      }
+      .center {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      #clock {
+        font-size: 40px;
+        background:linear-gradient(to right,rgb(209, 137, 137),rgb(173, 220, 226),rgb(214, 185, 132),rgb(219, 219, 168));
+        padding: 20px 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+        color: rgb(68, 51, 218);
+        text-shadow: 0px -4px 3px  rgb(8, 6, 1);
+        font-size: 5rem;
+        
+        
+      }
+      h1{
+        text-shadow: 0px -6px 3px  rgb(221, 183, 30);
+        font-size: 5rem;
+        color: black;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div id="banner"><h1>Digital local time</h1></div>
+      <div id="clock"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
